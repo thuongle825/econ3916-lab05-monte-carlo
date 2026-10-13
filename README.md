@@ -11,9 +11,9 @@ I used random simulation to estimate probabilities and financial risk measures, 
 - I simulated returns for a $1M portfolio and used the simulated losses to compute the 95% Value at Risk (VaR) and the 95% Expected Shortfall (ES).
 - I estimated pi with Monte Carlo sampling at several sample sizes and checked that the estimation error shrinks at a rate of about 1/sqrt(n).
 
-## Key Findings
+### Key Findings
 - **Coin flips:** The running share of heads moved around a lot early on and got closer to 0.5 as more flips were added.
-- **Monty Hall:** Switching won [YOUR VALUE] of the 10,000 games.
-- **Disease screening:** Only [YOUR VALUE]% of positive tests came from people who were actually sick. Because the disease is rare, most positive results were false positives, even though the test is fairly accurate.
-- **Portfolio risk:** The 95% VaR was $[YOUR VALUE] and the 95% ES was $[YOUR VALUE]. VaR is the loss I would not expect to exceed on 95% of days. ES is the average loss on the worst 5% of days, so it says more about how bad the tail can get.
+- **Monty Hall:** Switching won 6,694 of the 10,000 games.
+- **Disease screening:** Only 9.2% of positive tests came from people who were actually sick. Because the disease is rare, most positive results were false positives, even though the test is fairly accurate.
+- **Portfolio risk:** The 95% VaR was $19,494 and the 95% ES was $24,230. VaR is the loss I would not expect to exceed on 95% of days. ES is the average loss on the worst 5% of days, so it says more about how bad the tail can get.
 - **Convergence:** The error in my pi estimate fell at a rate of about 1/sqrt(n). This means that to cut the error in half, I need about four times as many samples.
